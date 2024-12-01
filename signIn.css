@@ -11,25 +11,144 @@ body{
     background-color: #000;
     color: #FFFF;
     text-align: center;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-brands.fa-spotify{
+    font-size: 40px;
 }
 
 h1{
-    margin-top: 300px; 
+    width: 400px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.form{
+    width: 324px;
+}
+
+form{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.email{
+    border-radius: 4px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #818181;
+    color: #FFFF;
+}
+
+form a{
+    text-align: left;
+    color: #1ED760;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.btn-avancar{
+    border: none;
+    border-radius: 30px;
+    background-color: #1ED760;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    cursor: pointer;
+}
+.btn-avancar:hover{
+    background-color: #3BE477;
+}
+
+.or-div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.or-div::before{
+    content: " ";
+    height: 1px;
+    background-color: #818181;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+}
+
+.or-div p{
+    padding: 0px 12px;
+    position: relative;
+    display: inline-block;
+    background: #000;
+}
+
+.sign-btns{
+    padding: 30px 0;
 }
 
 button{
-    background-color: #FFFF;
-    color: #000;
-    border: none;
-    padding: 8px 16px;
-    margin-top: 16px;
+    background-color: transparent;
+    color: #FFFF;
+    border: 1px solid #818181;
+    width: 100%;
+    padding: 15px 25px;
+    margin-top: 10px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
-    border-radius: 20px;
-    transition: transform 0.3s;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 button:hover{
-    transform: scale(1.1);
+    border: 1px solid #1ED760;
+    color: #1ED760;
+}
+
+button p{
+    text-align: center;
+}
+
+.fa-brands.fa-google, .fa-brands.fa-facebook, .fa-brands.fa-apple{
+    font-size: 20px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+.parag-login, footer{
+    color: #818181;
+}
+
+.parag-login{
+    margin-bottom: 20px;
+}
+
+.parag-login a, footer a{
+    color: #FFFF;
+}
+
+footer{
+    font-size: 12px;
 }

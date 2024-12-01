@@ -1,13 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-bt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./signIn.css">
+    <script src="https://kit.fontawesome.com/b35879e6b3.js" crossorigin="anonymous"></script>
     <title>Inscrever-se - Spotify</title>
 </head>
 <body>
-    <h1>Estamos trabalhando nisso ainda!</h1>
-    <button onclick="location.href='./index.html'">Voltar ao início</button>
+    <main>
+        
+        <div class="title">
+            <i class="fa-brands fa-spotify"></i>
+            <h1>Se inscreva e comece a curtir</h1>
+        </div>
+
+        <section class="form">
+            <form action="">
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" placeholder="nome@dominio.com" class="email">
+                <a href="#">Usar número de telefone</a>
+                <input type="submit" value="Avançar" class="btn-avancar">
+            </form>
+
+            <div class="or-div">
+                <p>ou</p>
+            </div>
+
+            <div class="sign-btns">
+                <button>
+                    <i class="fa-brands fa-google" style="color: #ffffff;"></i>
+                    <p>Increver-se com o Google</p>
+                </button>
+                <button>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <p>Increver-se com o Facebook</p>
+                </button>
+                <button>
+                    <i class="fa-brands fa-apple" style="color: #ffffff;"></i>
+                    <p>Criar conta com a Apple</p>
+                </button>
+            </div>
+            <hr>
+        </section>
+
+        <p class="parag-login">Já tem uma conta? <a href="./logIn.html">Faça login aqui</a>.</p>
+    </main>
+    <footer>
+        <p>This site is protected by reCAPTCHA and the Google</p>
+        <p><a href="#">Privacy Policy</a> and <a href="#">Terms of Service </a> apply.</p>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

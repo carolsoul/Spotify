@@ -11,25 +11,130 @@ body{
     background-color: #000;
     color: #FFFF;
     text-align: center;
+    margin: 30px 0;
+    margin-bottom: 0;
+    background: rgb(31, 31, 31);
+    background: linear-gradient(180deg, rgb(31, 31, 31) 0%, rgb(0, 0, 0) 100%);
+    background-repeat: no-repeat;
+}
+
+main{
+    background: rgb(18, 18, 18);
+    background: linear-gradient(0deg, rgb(18, 18, 18) 0%, rgb(0, 0, 0) 100%);
+    max-width: 734px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px 0;
+    margin: 0 auto;
 }
 
 h1{
-    margin-top: 300px; 
+    width: 400px;
+    font-size: 2rem;
+    margin-top: 10px;
 }
 
+.fa-brands.fa-spotify{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 button{
-    background-color: #FFFF;
-    color: #000;
-    border: none;
-    padding: 8px 16px;
-    margin-top: 16px;
+    background-color: transparent;
+    color: #FFFF;
+    border: 1px solid #818181;
+    width: 100%;
+    padding: 15px 25px;
+    margin-top: 10px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
-    border-radius: 20px;
-    transition: transform 0.3s;
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 button:hover{
-    transform: scale(1.1);
+    border: 1px solid #1ED760;
+    color: #1ED760;
+}
+
+button p{
+    text-align: center;
+}
+
+.fa-brands.fa-google, .fa-brands.fa-facebook, .fa-brands.fa-apple{
+    font-size: 20px;
+}
+
+form{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input{
+    border-radius: 4px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #818181;
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+
+.entrar-btn{
+    border: none;
+    border-radius: 30px;
+    background-color: #1ED760;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.entrar-btn:hover{
+    background-color: #3BE477;
+}
+
+form p{
+    color: #818181;
+    margin-top: 30px;
+}
+
+form a, form p a{
+    color: #FFFF;
+}
+
+footer{
+    background-color: #121212;
+    margin-top: 30px;
+    padding: 30px;
+    color: #818181;
+    font-size: 12px;
+}
+
+footer a{
+    color: #818181;
+}
+
+hr{
+    margin: 32px 0;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
 }
